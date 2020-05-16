@@ -6,7 +6,7 @@
 
 # Example
 ```lua
-RegisterCommand('sf_drilling', function(...)
+RegisterCommand('drill', function(...)
   TriggerEvent("Drilling:Start",function(success)
     if (success) then
       print("Drilling complete.")
